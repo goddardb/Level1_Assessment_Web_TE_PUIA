@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    width: 80%;
+    margin-left: auto;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+#logo {
+    width: 150px;
+    display: inline-block;
+    vertical-align: center;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #9e0000;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: center;
+    margin: auto 0 auto 0;
+}
+
+.nav-links:hover {
+    background-color: #f0f0f0;
+}
+
+.hero-image {
+    background-image: url("Te\ Puia\ Resources/20240626_111235");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-image {
+    width: 30%;
+}
