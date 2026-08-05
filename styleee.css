@@ -3,31 +3,26 @@ body {
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 
 
 
-#logo {
-    margin: 0;
-    width: 150px;
-    display: inline-block;
-    border-radius: 10px;
+.logo {
+    width: 50px;
+    vertical-align: baseline;
 }
-
 
 nav {
-    margin: 5px auto 5px auto;
-    width: 534.66px;
-    background-color: antiquewhite;
+    width: 485px;
+    margin: 0 auto 0 auto;
 }
+
 
 .nav-links {
     text-decoration: none;
     color: #9e0000;
     font-size: 16px;
     display: inline-block;
-    padding: 8px;
-    margin: 0 5px 0 5px;
+    padding: 15px 10px;
 }
 
 .nav-links:hover {
@@ -45,14 +40,11 @@ nav {
 .hero-text {
     font-size: 100px;
     color: #9e0000;
-    font-family: Boogaloo;
+    font-family: Archivo Black;
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 500px;
-    background-color: #f0f0f0;
+    top: 370px;
+    background-color: rgb(240 240 240 / 15%)
 }
 
-.page-image {
-    width: 30%;
-}
