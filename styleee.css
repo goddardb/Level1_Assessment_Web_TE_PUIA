@@ -1,6 +1,7 @@
 body {
     width: 100%;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -12,7 +13,7 @@ body {
 }
 
 nav {
-    width: 490px;
+    width: 523px;
     margin: 0 auto 0 auto;
 }
 
@@ -24,6 +25,8 @@ nav {
     display: inline-block;
     padding: 10px;
     border-radius: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .nav-links:hover {
@@ -56,4 +59,26 @@ nav {
 footer {
     background-color: #f0f0f0;
     border-top: 2px #ff87df;
+}
+
+.socials {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    color: #9e0000;
+}
+
+.socials:hover {
+    background-color: #ffffff;
+    color: #7e0000;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9rem;    
+}
+
+p footer {
+    margin: -3px;
 }
