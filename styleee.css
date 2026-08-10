@@ -12,9 +12,20 @@ body {
     vertical-align: baseline;
 }
 
+.top {
+    margin-left: 5px;
+}
+
 nav {
     width: 523px;
     margin: 0 auto 0 auto;
+}
+
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 

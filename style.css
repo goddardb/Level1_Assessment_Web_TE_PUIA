@@ -1,24 +1,28 @@
 body {
     width: 100%;
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
-
-
-
-#logo {
-    margin: 0;
-    width: 150px;
-    display: inline-block;
-    border-radius: 10px;
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
+.logo {
+    width: 50px;
+    vertical-align: baseline;
+}
+
+.top {
+    margin-left: 5px;
+}
 
 nav {
-    margin: 5px auto 5px auto;
-    width: 534.66px;
-    background-color: antiquewhite;
+    width: 523px;
+    margin: 0 auto 0 auto;
 }
 
 .nav-links {
@@ -26,8 +30,10 @@ nav {
     color: #9e0000;
     font-size: 16px;
     display: inline-block;
-    padding: 8px;
-    margin: 0 5px 0 5px;
+    padding: 10px;
+    border-radius: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .nav-links:hover {
@@ -45,14 +51,67 @@ nav {
 .hero-text {
     font-size: 100px;
     color: #9e0000;
-    font-family: Boogaloo;
+    font-family: Archivo Black;
     position: absolute;
     width: 100%;
     text-align: center;
-    top: 500px;
-    background-color: #f0f0f0;
+    top: 370px;
+    background-color: rgb(240 240 240 / 15%)
+}
+
+
+main {
+    margin: 70px 30px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #12680d;
+    font-family: Archivo Black;
+    width: 100%;
+    text-align: center;
+    text-shadow: #044702 0.4px 1px 0.5px;
+    padding: 50px;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.two-column {
+    width: 60%;
+    margin: 80px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
 }
 
 .page-image {
-    width: 30%;
+    width: 70%;
+}
+
+footer {
+    background-color: #f0f0f0;
+    border-top: 2px #ff87df;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9rem;  
+}
+
+p footer {
+    margin: -3px;
+}
+
+.socials {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    color: #9e0000;
+}
+
+.socials:hover {
+    background-color: #ffffff;
+    color: #7e0000;
 }
